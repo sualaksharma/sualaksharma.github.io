@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="code.css">
+<title>Book a Show</title>
+</head>
+<body>
+<script type="text/javascript">
+function bookshow(){
+	
+}
+</script>
+<form>
+<h1 class="heading">BOOK A SHOW - TICKET BOOKING</h1>
+<div class="tab">
+NAME:<input type="text" name="Name"><br><br>
+<label for="color">MOVIE NAME:</label>
+<input name="color" id="color" list="colors" autocomplete="on">
+<datalist id="colors">
+<option>Irada</option>
+<option>Rangoon</option>
+<option>Logan</option>
+<option>Fist Fight</option>
+</datalist><br><br>
+<label for="circle">CIRCLE:</label>
+<input name="circle" id="circle" list="circles" autocomplete="on">
+<datalist id="circles">
+<option>Gold</option>
+<option>Silver</option>
+<option>Platinum</option>
+</datalist><br><br>
+PHONE NO:<input type="number" id="num" maxlength="10" pattern="\d{10}" name="pnum" placeholder="Enter Mobile Number here:"><br><br>
+SHOW DATE & TIME:<input type="date" id="Date" name="Date"><br><br>
+NO OF ADULTS:<input type="number" min="1" max="10" id="passenger" name="passenger"><br><br>
+NO OF CHILDRENS:<input type="number" min="1" max="5" id="children" name="children"><br><br>
+<input type="button" onclick="bookshow()" value="Book my Show">
+<input type="reset" value="Reset"></button>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+body{
+background-color:#00CED1;
+}
+.heading{
+font-family:monospace;
+font-weight:bold;
+color:#0000FF;
+text-align:center;
+}
+.tab{
+font-family:monospace;
+font-weight:bold;
+color:#0C1584;
+}
